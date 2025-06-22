@@ -10,13 +10,10 @@ class TableTemplate {
 
         let targetColumnIndex = -1;
         for (let i = 0; i < header.cells.length; i++) {
-            console.log("inner:", header.cells[i].innerHTML);
             if (header.cells[i].innerHTML === columnName) {
                 targetColumnIndex = i;
             }
         }
-
-        console.log(targetColumnIndex);
 
         for (let i = 1; i < rows.length; i++) {
             if (columnName !== "" && targetColumnIndex !== -1) {
