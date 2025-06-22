@@ -1,0 +1,42 @@
+
+#container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: nowrap;
+}
+
+div > div {
+    font: 40px Tahoma;
+    height: 150px;
+    width: 100px;
+    text-align: left;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: 10px dotted #D0D0FF;
+    background-color: #eeeff2;
+}
+
+div > div:hover {
+    cursor: pointer;
+}
+
+#container > div:hover {
+    background-color: yellow;
+    color: goldenrod;
+}
+
+#f {
+    /* background-color: #687291; */
+    /* border: 4px solid; */
+    /* position: fixed;
+    bottom: 0px;
+    right: 0px; */
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -75px;
+    margin-left: -50px;
+}

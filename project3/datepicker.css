@@ -1,0 +1,28 @@
+th {
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+}
+
+tbody {
+    cursor: default;
+}
+
+.date-arrow {
+    cursor: pointer;
+}
+
+.not-cur-month {
+    color: gray;
+}
+
+#selected-day {
+    background-color:rgb(175, 234, 234);
+    border: 1px solid black;
+}
+
+.clicked-td {
+    border: 1px solid black;
+}
